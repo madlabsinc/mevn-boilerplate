@@ -1,2 +1,2 @@
-# mevn-boilerplate
-Boilert plate for getting started with MEVN stack
+# MEVN - Boilerplate
+Boiler plate for getting started with MEVN stack
