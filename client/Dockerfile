@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:10
+FROM nginx:alpine
 
 WORKDIR /usr/src/app
 
