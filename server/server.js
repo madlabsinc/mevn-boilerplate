@@ -12,12 +12,15 @@ const port = process.env.PORT || 9000
 const app = express()
 
 // Defining middlewares
-app.use(morgan('combined', { stream: winston.stream }))
+app.use(morgan('combined'));
 app.use(bodyParser.json())
 app.use(cors())
 
+// Static folder
+//app.use(express.static(__dirname + '/dist/'));
+
 // Defining the Routes
-app.use('/api', require('./routes/index'))
+app.use('/api', require('./routes/index'));
 
 // Listening to port
 app.listen(port)
