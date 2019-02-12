@@ -15,7 +15,7 @@
     "start:docker": "sudo docker-compose up"
   },
   "dependencies": {
-    "vue": "^2.6.5",
+    "vue": "^2.6.6",
     "vue-router": "^3.0.2"
   },
   "devDependencies": {
@@ -81,7 +81,7 @@
     "url-loader": "^1.1.2",
     "vue-loader": "^15.4.2",
     "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.5",
+    "vue-template-compiler": "^2.6.6",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-dev-server": "^2.11.3",
