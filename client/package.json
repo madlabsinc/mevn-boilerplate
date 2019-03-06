@@ -14,7 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.6.7",
+    "vue": "^2.6.8",
     "vue-router": "^3.0.2"
   },
   "devDependencies": {
@@ -80,7 +80,7 @@
     "url-loader": "^1.1.2",
     "vue-loader": "^15.4.2",
     "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.7",
+    "vue-template-compiler": "^2.6.8",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^3.1.0",
     "webpack-dev-server": "^2.11.3",
