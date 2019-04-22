@@ -5,8 +5,7 @@ const router = express.Router();
 
 // Routes go here.
 router.get('/', (req, res) => {
-  console.log('Root Handler!');
-  //res.sendFile(path.join(__dirname, '../dist', 'index.html'));
+  res.sendFile(path.join(__dirname, '../views', 'index.html'));
 });
 
 // Use localhost:9000/api followed by the required path.
