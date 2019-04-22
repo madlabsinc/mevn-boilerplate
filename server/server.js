@@ -11,6 +11,18 @@ const port = process.env.PORT || 9000
 // Defining app
 const app = express()
 
+//Database Connection
+/* * 
+ * MySQL
+ * const mysql_connect = require('./config/default').MySQL
+ * mysql_connect();
+ * 
+ * Mongodb
+ * const mongodb_connect = require('./config/default').Mongodb
+ * mongodb_connect();
+ */
+ 
+ 
 // Defining middlewares
 app.use(morgan('combined'));
 app.use(bodyParser.json())
