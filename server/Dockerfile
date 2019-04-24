@@ -1,6 +1,9 @@
 FROM mhart/alpine-node:10
 
-WORKDIR /usr/src/app
+RUN apk add --update \
+	nodejs-npm
+
+WORKDIR app
 
 COPY package*.json ./
 
@@ -11,3 +14,4 @@ COPY . .
 EXPOSE 9000
 
 CMD ["npm", "start"]
+

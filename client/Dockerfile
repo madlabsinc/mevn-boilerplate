@@ -1,6 +1,9 @@
 FROM nginx:alpine
 
-WORKDIR /usr/src/app
+RUN apk add --update \
+	nodejs-npm
+
+WORKDIR app
 
 COPY package*.json ./
 
@@ -10,4 +13,4 @@ COPY . .
 
 EXPOSE 8080
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev"]
